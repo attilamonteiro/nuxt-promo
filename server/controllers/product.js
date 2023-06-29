@@ -107,3 +107,6 @@ exports.updateProduct = function (req, res) {
     });
   })
 }
+
+
+

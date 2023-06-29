@@ -164,3 +164,10 @@ exports.deleteBlog = (req, res) => {
     res.json({status: 'deleted'});
   });
 }
+
+
+
+
+
+
+

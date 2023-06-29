@@ -4,7 +4,6 @@ const User = require('../models/user');
 const Product = require('../models/product');
 const Category = require('../models/category');
 
-
 const user1Id = mongoose.Types.ObjectId();
 const user2Id = mongoose.Types.ObjectId();
 const user3Id = mongoose.Types.ObjectId();

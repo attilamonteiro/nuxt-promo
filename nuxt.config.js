@@ -35,7 +35,7 @@ module.exports = {
   */
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
-    // '@nuxtjs/axios',
+    '@nuxtjs/axios',
   ],
   /*
   ** Axios module configuration
@@ -43,9 +43,9 @@ module.exports = {
   */
   axios: {
   },
-  // serverMiddleware: [
-  //   '~/server/routes/index'
-  // ],
+  serverMiddleware: [
+    '~/server/routes/index'
+  ],
   /*
   ** Build configuration
   */

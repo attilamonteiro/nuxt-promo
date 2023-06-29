@@ -29,3 +29,4 @@ router.delete('/:id', AuthCtrl.onlyAuthUser,
                       blogCtrl.deleteBlog);
 
 module.exports = router;
+

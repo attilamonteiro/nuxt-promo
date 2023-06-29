@@ -49,3 +49,10 @@ exports.updateProductHeroes = function(req, res, next) {
       })
     })
   }
+
+
+
+
+
+
+

@@ -14,3 +14,4 @@ router.patch('/:id', AuthCtrl.onlyAuthUser,
                      ProductHeroCtrl.updateProductHeroes);
 
 module.exports = router;
+
